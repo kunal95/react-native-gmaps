@@ -1,16 +1,20 @@
 'use strict';
 
-let React = require('react-native');
+let Reactnative = require('react-native');
+let React = require('react');
 
 let {
-  View,
   Component,
-  requireNativeComponent,
-  PropTypes,
-  DeviceEventEmitter,
-  NativeModules,
-  Image
+  PropTypes
 } = React;
+
+let {
+  requireNativeComponent,
+  View,
+  NativeModules,
+  DeviceEventEmitter,
+  Image
+} = Reactnative
 
 var RNGMapsModule = NativeModules.RNGMapsModule;
 
